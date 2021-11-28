@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-center{
+    width: 1000px;
+    height: 600px;
+    background-image: url(img/design-de-loja-de-animais_24877-49297.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #007D8C;
+}
+
+.topicos{
+    background-color: #007D8C;
+    height: 30px;
+}
+.topicos .topicos1{
+    border: 1px solid #007D8C;
+    height: 29px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.topicos .topicos1 option{
+    background: #007D8C;
+    
+}
