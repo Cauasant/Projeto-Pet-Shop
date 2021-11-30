@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form{
+  position: relative;
+  background: #007D8C;
+  border: transparent;
+  width: 350px;
+  padding: 40px 40px 60px;
+  border-radius:10px;
+  text-align: center;
+}
+.form::before{
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  background: lightblue;
+  z-index: -1;
+  transform: skew(2deg,1deg);
+  border-radius: 10px;
+}
+.form h2{
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.form img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-top: 10px;
+}
+.form .input{
+  margin-top: 20px;
+  text-align: left;
+}
+.form .input .inputForm{
+  margin-top: 10px;
+}
+.form .input .inputForm label{
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+  font-style: 18px;
+  letter-spacing: 4px;
+}
+.form .input .inputForm input{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border: #007D8C;
+  outline: none;
+  padding: 5px 15px;
+  background: lightblue;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.form .input .inputForm input[type="submit"]{
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing:1px;
+  border-right: 4px solid #045F77;
+  border-bottom: 4px solid #045F77;
+}
+.form .input .inputForm input[type="submit"]:hover{
+  background: #045F77;
+}
+.senha{
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing:1px;
+}
+.senha a{
+  color: black;
+}
